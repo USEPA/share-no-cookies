@@ -83,7 +83,17 @@ var epaCore = {
     epaCore.addPostItem(sList, "pinterest", "javascript:epaCore.articleShare('pinterest');", "Pinterest");
     epaCore.addPostItem(sList, "twitter", "javascript:epaCore.articleShare('twitter');", "Twitter");
     epaCore.addPostItem(sList, "whatisthis", "javascript:epaCore.articleShare('whatisthis');", "What is this?");
-	} //addPosts
+	}, //addPosts
+
+  showHideSwap : function(id1,id2) {
+    var id1c = document.getElementById(id1); var id2c = document.getElementById(id2);
+    if (id1c.className == 'hide' && id2c.className == 'post') {
+      id1c.className = 'show'; id2c.className = 'postFrame';
+    } else {
+      id1c.className = 'hide'; id2c.className = 'post';
+    }
+  } //showHideSwap
+
 
 }; // end epaCore
 
