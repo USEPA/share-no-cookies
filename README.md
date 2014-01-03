@@ -6,7 +6,7 @@ Includes posting to Facebook, Google+, Pinterest, and Twitter, as well as an exp
 
 ## Setup
 
-You need a `<div id="footer"></div>` element in place. This plugin will append to the bottom of this `div` a `ul` with `id` of `bookmarkList`. You can, of course, adjust the code to insert the `bookmarkList` anywhere you want on your page.
+You need a `<div id="footer"></div>` element in place.  You can, of course, adjust the code to insert the `bookmarkList` anywhere you want on your page. This plugin will append to the bottom of your element, a `ul` with `id` of `bookmarkList`.
 
 The full generated HTML is below:
 
@@ -21,7 +21,8 @@ The full generated HTML is below:
       <li class="whatisthis"><a href="javascript:epaCore.articleShare('whatisthis');">What is this?</a></li>
     </ul>
   </li>
-</ul>```
+</ul>
+```
 
 There are no images, but you can easily add your own, since there are classes for each bullet.
 
